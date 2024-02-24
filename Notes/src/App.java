@@ -16,6 +16,7 @@ public class App {
         String choice = scanner.nextLine();
             if (!choice.equals("1")&&!choice.equals("2")) {
                 new ViewClassRus().errorCommand();
+                new ViewClassEng().errorCommand();
                 main(args);
             }
 
